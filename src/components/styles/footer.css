@@ -1,0 +1,80 @@
+.footer {
+    background-color: var(--dark-blue);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer .logo {
+    position: relative;
+    top: -4rem;
+}
+
+.footer .logo img {
+    width: 70px;
+}
+
+.footer form {
+    margin: 2rem auto;
+}
+
+.footer form input {
+    width: 300px;
+    padding: 7px 10px;
+}
+
+.footer form .btn {
+    padding: 9px 10px;
+    border: none;
+    background-color: var(--button);
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+
+.footer form .btn:hover {
+    background-color: var(--hover);
+}
+
+.footer .list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.footer .list a {
+    display: inline-block;
+    margin: 0 7px;
+    text-decoration: none;
+    color: var(--button);
+}
+
+.footer .list a:hover {
+    color: var(--hover);
+}
+
+.footer p {
+    font-size: .9rem;
+    color: var(--border);
+    margin: 1.5rem auto 0;
+}
+
+.footer p a {
+    color: var(--button);
+}
+
+.footer p a:hover {
+    color: var(--hover);
+}
+
+@media (min-width: 223px) and (max-width: 768px) {
+    .footer {
+        padding: 1rem;
+    }
+
+    .footer form .btn {
+        margin: 15px auto;
+    }
+}
